@@ -11,6 +11,16 @@ h1,h2,h3,h4,h5,h6{
     padding: 0px;
 }
 
+ul , li{
+    padding: 0px;
+}
+.pl-0{
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
 .login-area{
     background-color: #FFFFFF;
     box-shadow: 0px 0px 8px #41414149;
@@ -102,4 +112,98 @@ form label span{
     text-decoration: none;
     padding-right: 20px;
     font-size: .9rem;
+}
+
+/* dashborad  */
+
+.edit-button a{
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+}
+
+.side-menu{
+    height: 100%;
+    background-color: rgb(17, 70, 150);
+    width: 100%;
+    
+}
+
+.side-menu ul li {
+    list-style: none;
+    padding: 14px 0px;
+    transition: .3s;
+    padding-left: 35px;
+}
+.side-menu ul li:hover {
+   background-color: rgb(29, 55, 104);
+}
+.side-menu ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    color: aliceblue;
+}
+
+.user-icon i{
+    font-size: 20px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    background-color: steelblue;
+}
+.logo{
+    padding: 20px 0px 20px 40px;
+}
+
+
+.user-icon{
+    padding: 20px 20px 0px 40px;
+}
+.user-icon i{
+   margin-right: 15px;
+   color: black;
+}
+
+.logo h6 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.main-access{
+    height: 100vh;
+}
+
+
+/* index  */
+
+.access-data{
+    border-top: 3px solid rgb(44, 44, 92);
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.access-data i{
+    font-size: 30px;
+}
+.access-data a{
+    font-size: 20px;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    display:block;
+}
+.access-data p{
+    font-size: 14px;
+    text-transform: capitalize;
+
 }
